@@ -1,0 +1,22 @@
+.status-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-toggle p {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+.status-toggle strong {
+  color: var(--text-primary);
+}
+
+.btn-online {
+  background-color: var(--status-online) !important;
+}
+
+.btn-offline {
+  background-color: var(--status-offline) !important;
+}

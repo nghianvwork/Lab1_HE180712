@@ -1,0 +1,12 @@
+.like-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--border-color);
+}
+
+.like-count {
+  font-weight: 600;
+  color: var(--text-primary);
+}
